@@ -31,9 +31,37 @@
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
     <meta name="viewport" content="width=>, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Elizabeth Moon is an experienced Product Owner based in Edinburgh, Scotland. This website is her own creation as part of her learning to code journey. She is using this space to explain how she got into Tech and why she chose coding as part of her Product progression."
+    />
+    <title>Elizabeth Moon - About</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/profile-icon-text.PNG"
+            class="logo d-none d-md-block"
+            alt="Elizabeth Moon personal logo"
+          />
+          <img
+            src="images/profile-icon-small.PNG"
+            class="logo-small d-block d-md-none"
+            alt="Elizabeth Moon personal initials logo"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Elizabeth">About</a>
+          </li>
+          <li><a href="/work.html" title="Elizabeth's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Elizabeth">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="content">
@@ -58,5 +86,64 @@
         />
       </div>
     </div>
+    <footer>
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-primary"
+            title="Contact Elizabeth"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a
+          href="mailto:elizabethmoon37@gmail.com"
+          class="email-link"
+          title="Email Elizabeth"
+        >
+          elizabethmoon37@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.linkedin.com/in/elizabeth-moon-217692151/"
+          target="_blank"
+          title="LinkedIn profile"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/elizabethmoon37"
+          target="_blank"
+          title="Github profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5 text-muted">
+        This project was coded by Elizabeth as part of her SheCodes journey. It
+        is open-sourced on
+        <a
+          href="https://github.com/elizabethmoon37/Career-portfolio-Beth-Moon"
+          target="_blank"
+          >Github
+        </a>
+        and hosted on
+        <a
+          href="https://app.netlify.com/sites/jolly-toffee-830fa3/overview"
+          target="_blank"
+          >Netlify</a
+        >
+        ✌
+      </p>
+    </footer>
   </body>
 </html>
