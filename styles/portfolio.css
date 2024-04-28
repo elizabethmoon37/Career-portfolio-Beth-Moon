@@ -214,6 +214,10 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 900px) {
+  body {
+    max-width: 95%;
+    text-align: center;
+  }
   h1 {
     font-size: 50px;
   }
@@ -274,5 +278,10 @@ footer .social-links a:hover {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
+  }
+
+  .certificates {
+    max-width: 50%;
+    text-align: center;
   }
 }
