@@ -72,6 +72,11 @@ a:hover {
   font-size: 24px;
 }
 
+.container {
+  padding: 50px;
+  margin-top: 40px;
+}
+
 .content-container {
   padding: 60px 20px;
 }
@@ -121,8 +126,8 @@ a:hover {
 }
 
 .project-description {
-  padding: 120px 60px;
-  margin-top: 15px;
+  padding: 20px 60px;
+  margin-top: 0px;
 }
 
 .logo {
